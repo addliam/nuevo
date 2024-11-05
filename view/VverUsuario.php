@@ -37,9 +37,9 @@
                             <td><?php echo $usuario['usu_usuario']; ?></td>
                             <td><?php echo $usuario['usu_correo']; ?></td>
                             <td>
-                                <a href="editar_usuario.php?id=<?php echo $usuario['usu_id']; ?>"
+                                <a href="./view/VeditarUsuario.php?id=<?php echo $usuario['usu_id']; ?>"
                                     class="btn btn-warning btn-sm">Editar</a>
-                                <a href="eliminar_usuario.php?id=<?php echo $usuario['usu_id']; ?>"
+                                <a href="./controller/CeliminarUsuario.php?id=<?php echo $usuario['usu_id']; ?>"
                                     class="btn btn-danger btn-sm"
                                     onclick="return confirm('¿Está seguro de eliminar este usuario?');">Eliminar</a>
                             </td>
